@@ -1,0 +1,68 @@
+generated: '2026-08-27'
+method: probed
+source: >-
+  Live unauthenticated GETs of the five standard /.well-known/ paths against every host
+  Shoulder Innovations serves: the corporate site, the Equisolve-hosted investor-relations
+  site, and the ProVoyance customer login portal linked from the ProVoyance product page.
+note: >-
+  Recorded absence. Nothing was served. No WellKnown or SecurityTxt pointer is wired into
+  apis.yml because no path returned a real document. The portal host answers HTTP 200 to
+  every /.well-known/* path with the same 1463-byte React application shell - a single-page-app
+  catch-all, not a document - so those 200s are recorded as misses, not hits.
+hosts:
+- host: shoulderinnovations.com
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+    file: null
+  - path: /.well-known/openid-configuration
+    status: 404
+    file: null
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+    file: null
+  - path: /.well-known/api-catalog
+    status: 404
+    file: null
+  - path: /.well-known/ai-plugin.json
+    status: 404
+    file: null
+- host: ir.shoulderinnovations.com
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+    file: null
+  - path: /.well-known/openid-configuration
+    status: 404
+    file: null
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+    file: null
+  - path: /.well-known/api-catalog
+    status: 404
+    file: null
+  - path: /.well-known/ai-plugin.json
+    status: 404
+    file: null
+- host: portal.si.genesisplanningsoftware.com
+  documents:
+  - path: /.well-known/security.txt
+    status: 200
+    file: null
+    note: SPA catch-all - identical 1463-byte HTML shell, not a document. Treated as a miss.
+  - path: /.well-known/openid-configuration
+    status: 200
+    file: null
+    note: SPA catch-all - identical 1463-byte HTML shell, not a document. Treated as a miss.
+  - path: /.well-known/oauth-authorization-server
+    status: 200
+    file: null
+    note: SPA catch-all - identical 1463-byte HTML shell, not a document. Treated as a miss.
+  - path: /.well-known/api-catalog
+    status: 200
+    file: null
+    note: SPA catch-all - identical 1463-byte HTML shell, not a document. Treated as a miss.
+  - path: /.well-known/ai-plugin.json
+    status: 200
+    file: null
+    note: SPA catch-all - identical 1463-byte HTML shell, not a document. Treated as a miss.
