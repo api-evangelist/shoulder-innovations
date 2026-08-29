@@ -10,6 +10,17 @@ description: 'Shoulder Innovations is a commercial-stage medical technology comp
   reconstructions and is delivered to surgeons through a customer login portal. The company listed
   publicly in July 2025 under the ticker SI. It ships no public API, SDK, webhook surface or developer
   program; ProVoyance is an end-user clinical application, not a platform.'
+deliveryModel:
+  model: unknown
+  open_source: false
+  commercial: false
+  callable_host: false
+  label: Delivery model not determined — needs a product licence on record
+  confidence: low
+  source:
+  - none
+  generated: '2026-08-28'
+  method: derived
 image: https://shoulderinnovations.com/wp-content/uploads/2025/01/shoulder_innovations_white_logo-1-1-1024x258.png
 url: https://raw.githubusercontent.com/api-evangelist/shoulder-innovations/refs/heads/main/apis.yml
 x-type: company
