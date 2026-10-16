@@ -2,8 +2,8 @@
   "repo": "shoulder-innovations",
   "feeds": [
     {
-      "source": "https://shoulderinnovations.com/",
-      "feed_url": "https://shoulderinnovations.com/feed/",
+      "source": "https://shoulderinnovations.com/news/",
+      "feed_url": "https://shoulderinnovations.com/news/feed/",
       "title": "",
       "saved": 0,
       "method": "discovered"
@@ -16,6 +16,6 @@
       "method": "feed"
     }
   ],
-  "post_count": 8,
-  "fetched": "2026-10-03T12:30:02Z"
+  "post_count": 9,
+  "fetched": "2026-10-10T13:15:00Z"
 }
