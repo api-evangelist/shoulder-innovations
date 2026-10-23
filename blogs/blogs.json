@@ -9,6 +9,13 @@
       "method": "discovered"
     },
     {
+      "source": "https://shoulderinnovations.com/news/feed/",
+      "feed_url": "https://shoulderinnovations.com/news/feed/",
+      "title": "",
+      "saved": 0,
+      "method": "feed"
+    },
+    {
       "source": "https://shoulderinnovations.com/feed/",
       "feed_url": "https://shoulderinnovations.com/feed/",
       "title": "",
@@ -16,6 +23,6 @@
       "method": "feed"
     }
   ],
-  "post_count": 9,
-  "fetched": "2026-10-10T13:15:00Z"
+  "post_count": 10,
+  "fetched": "2026-10-17T14:53:57Z"
 }
